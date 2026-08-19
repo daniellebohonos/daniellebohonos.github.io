@@ -97,16 +97,15 @@ hr.rule {
 /* ---------- Home hero ---------- */
 .hero {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 1fr 240px;
   gap: 36px;
   align-items: start;
   margin-top: 48px;
 }
 
 .hero .photo {
-  width: 200px;
-  height: 240px;
-  object-fit: cover;
+  width: 240px;
+  height: auto;
   border-radius: 6px;
   background: var(--bg-soft);
   border: 1px solid var(--line);
@@ -307,7 +306,7 @@ ol.questions li::before {
 /* ---------- Responsive ---------- */
 @media (max-width: 640px) {
   .hero { grid-template-columns: 1fr; gap: 20px; }
-  .hero .photo { width: 160px; height: 190px; }
+  .hero .photo { width: 220px; height: auto; }
   .nav .brand { margin-right: 0; width: 100%; margin-bottom: 6px; }
   .facts { grid-template-columns: 1fr; }
   body { font-size: 16px; }
