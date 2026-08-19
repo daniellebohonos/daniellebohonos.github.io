@@ -155,7 +155,7 @@ hr.rule {
 /* ---------- Typography ---------- */
 h2.head {
   font-family: var(--serif);
-  font-size: 24px;
+  font-size: 28px;
   margin: 0 0 4px;
 }
 h2.head .accent { color: var(--purple); }
@@ -324,7 +324,7 @@ ol.questions li::before {
 }
 .page-title {
   font-family: var(--serif);
-  font-size: 30px;
+  font-size: 36px;
   line-height: 1.15;
   margin: 0 0 14px;
 }
