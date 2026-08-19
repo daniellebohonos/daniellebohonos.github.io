@@ -99,7 +99,7 @@ hr.rule {
   display: grid;
   grid-template-columns: 1fr 240px;
   gap: 36px;
-  align-items: start;
+  align-items: end;
   margin-top: 48px;
 }
 
@@ -113,18 +113,18 @@ hr.rule {
 
 .hero h1 {
   font-family: var(--serif);
-  font-size: 34px;
+  font-size: 40px;
   line-height: 1.15;
   margin: 0 0 6px;
 }
 
 .hero .role {
   color: var(--muted);
-  font-size: 17px;
+  font-size: 19px;
   margin: 0 0 4px;
 }
 
-.hero .affil { color: var(--muted); margin: 0 0 16px; }
+.hero .affil { color: var(--muted); font-size: 18px; margin: 0 0 16px; }
 
 /* profile links row (CV, Scholar, etc.) */
 .links {
